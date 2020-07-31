@@ -110,6 +110,18 @@ export default {
           this.isDown = true;
         }
       }
+
+
+
+
+
+
+
+
+
+
+
+
       this.$emit("change", data);
     },
     getInputData(name,value){
