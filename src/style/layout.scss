@@ -1,0 +1,44 @@
+$layout-text-color: #383838 !global;
+$layout-text-color2: #595959;
+$input-placeholder-color: #B3B3B3;
+$btn-color: #1c1fbd;
+$btn-active-color: #6f71d4;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+
+}
+
+body {
+  font-family: -apple-system-font, "Helvetica Neue", sans-serif;
+  color: $layout-text-color;
+  background: #f5f5f5;
+  font-size: 13px;
+}
+
+a {
+  color: $layout-text-color;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+.btn{
+  background: $btn-color;
+}
+.btn-active{
+  background: $btn-active-color
+}

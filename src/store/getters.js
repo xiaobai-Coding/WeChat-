@@ -1,0 +1,25 @@
+const getters = {
+  getIconName:state => state.Icon_name,
+  sid: state => state.sid,
+  url: state => state.host_name,
+  products: state => state.products,
+  user: state => state.user,
+  recordId: state => state.rptRecordId,
+  getAssRecordId:state => state.assRecordId,
+  order: state => state.order,
+  getServiceProduct: state => state.serviceProduct,
+  editSerProduct: state => state.serviceProductDetail,
+  visitPersons: state => state.visitPersons,
+  visitPersonDetail: state => state.visitPersonDetail,
+  getSettlementId: state => state.settlementId,
+  getRptId:state => state.RptId,
+  accountAll:state => state.AccountAll,
+  RouteSate:state => state.routeSate,
+  getOrderStyle:state => state.orderStyle,
+  getAgencyId:state => state.agencyId,
+  getdetailCondition:state => state.detailCondition,
+  getCustomerId:state => state.CustomerId,
+  getVideoData:state => state.videoData,
+}
+
+export default getters

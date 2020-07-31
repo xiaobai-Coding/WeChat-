@@ -1,0 +1,85 @@
+1. config
+   项目运行文件，dev 开发模式本地运行配置  prod 发布模式运行配置
+
+2. dist 文件
+   项目压缩后的代码
+
+3. node_modules 项目依赖包
+
+4. src  目录
+    4.1. src\api 统一封装的接口 使用的时候调用即可
+
+    4.2. src\components vue组件存放文件夹
+
+    4.3. src\assets 静态资源存放目录 webpack 打包时会将他们（css,html)打包在一个文件里头
+
+    4.4. src\static 静态资源文件 区别是 webpack 打包时不会直接处理 而是直接拷贝到最终路径
+
+    4.5. src\router 路由相关配置
+
+    4.6. src\store  vuex存储数据用来组件之间共享数据
+
+    4.7. src\style  初始化css文件
+        4.7.1 src\style\animate.css 第三方动画库 http://daneden.me/animate
+        4.7.2 src\style\normalize.css  处理浏览器兼容性问题 以保证在各大浏览器上显示统一
+
+    4.8. src\utils\request 对axios 的封装  请求拦截器与响应拦截器
+
+    4.9. src\views 项目封装的组件
+         4.9.1 src\views\appRegister 应用统计菜单组件
+         4.9.2 src\views\dispatchReport 派修相关组件
+         4.9.3 src\views\drawlnvoice  派修相关组件
+         4.9.4 src\views\invoice  代开票组件，发票列表组件
+         4.9.5 src\views\receivables  付款列表，详细信息组件
+         4.9.5 src\views\register  用户注册组件
+         4.9.6 src\views\register  报修相关组件
+              4.9.6.1 src\views\register\addProduct.vue  报修添加：添加产品，保存在状态管理
+              4.9.6.2 src\views\register\addRepair.vue  添加报修
+              4.9.6.3 src\views\register\changeOrder.vue  添加报修
+              4.9.6.4 src\views\register\repairList.vue  报修列表
+              4.9.6.5 src\views\register\repairList.vue  报修列表
+
+         4.9.7 src\scan\index  微信（wx) 调用的官方api  和项目配置
+
+         4.9.8 src\serveList\serveList  服务的首页 显示 报修列表和数据列表
+
+         4.9.9 src\serviceReport 待服务菜单，
+
+         4.9.10 src\shareOrder  报修
+
+         4.9.11 src\statsList  付款组件
+
+         4.9.12 src\test\index  关于长通，行业动态
+
+         4.9.13 src\test1\index  pc端登录页面
+
+         4.9.14 src\test2\index  在pc端登录成功之后显示的一个报修流程提示
+
+         4.9.15 src\userinfo\toggleUser  我的>申请绑定
+
+         4.9.16  src\verifyReport\verifyList  审核列表
+
+         4.9.16  src\video  学习,课程推荐
+
+         4.9.16  src\visitReport  回访
+
+
+5. App.vue  项目根页面 SPA单页面应用程序
+
+6. directives.js  自定义指令，主要是修复ios页面滚动影响输入框的问题
+
+7. main.js  项目入口文件
+
+
+
+
+
+
+
+
+
+
+
+
+
+12.

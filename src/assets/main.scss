@@ -1,0 +1,26 @@
+// 主题颜色
+$color:#1aad19;
+// 边距
+$distance-15:0.9375rem;
+//背景颜色
+$bg-color:#eee;
+//字体大小
+@function fuc-size($size,$num){
+    @return ($size * $num)rem;
+}
+$ft-size1:1rem;
+$ft-size08:0.8rem;
+$ft-size12:1.2rem;
+
+.s-1{
+    font-size:fuc-size(1.2,1)
+}
+.s-08{
+    font-size:fuc-size(1.2,0.8)
+}
+.s-12{
+    font-size:fuc-size(1.2,1.2)!important
+}
+
+
+

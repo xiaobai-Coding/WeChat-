@@ -1,0 +1,34 @@
+.enter-x5-player video.center
+{
+	object-position:50% 50% !important;
+}
+
+.prism-progress-cursor
+{
+  margin-left:0px !important;
+}
+
+/*.enter-x5-player video
+{
+	object-position: 0px 10px;
+	/*height:auto !important;*/
+
+/*}*/
+
+
+video::-webkit-media-controls {
+  display:none !important;
+}
+
+/* 动画css 样式 */
+
+/* .fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+} */
+
