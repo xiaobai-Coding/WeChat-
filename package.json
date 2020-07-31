@@ -83,7 +83,7 @@
     "vuex-persistedstate": "^3.0.1",
     "vux-loader": "^1.2.9",
     "webpack": "^3.6.0",
-    "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-bundle-analyzer": "^3.3.2",
     "webpack-merge": "^4.1.0"
   },
   "engines": {
