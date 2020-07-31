@@ -54,7 +54,7 @@
           v-model="submitData.OrganName"
         ></md-input-item>
         <!-- 纳税联系电话 -->
-        <md-input-item
+             <md-input-item
           title="联系电话"
           placeholder="请填写联系电话"
           align="right"
@@ -62,7 +62,7 @@
           name="phone"
           type="phone" id='email'
         ></md-input-item>
-                <!-- 纳税人识别号 -->
+        <!-- 纳税人识别号 -->
         <md-input-item
           title="纳税识别号"
           type="digit"

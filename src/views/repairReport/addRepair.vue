@@ -61,7 +61,6 @@
       <div class="save">
         <md-button :type="type" :disabled="disabled" @click="postInfo">提交</md-button>
       </div>
-
       <transition type="transition" appear enter-active-class="animated bounceInLeft active" leave-active-class="animated bounceOutRight active" appear-class="animated bounceInLeft" :duration="{enter: 500, leave: 500}">
         <div class="dispatch-person">
           <md-selector v-model="isShowUnit" default-value="2" :data="UnitList" max-height="320px" title="报检机构" large-radius @choose="unitNameVal"></md-selector>

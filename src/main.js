@@ -8,6 +8,7 @@ import FastClick from 'fastclick'
 import mandMobile from 'mand-mobile'
 import 'mand-mobile/lib/mand-mobile.css'
 import Loading from '@/router/Loading/loading'
+import {ValidationProvider,extend} from 'vee-validate'
 import App from './App'
 import router from './router'
 import vueWechatTitle from 'vue-wechat-title'
@@ -16,12 +17,12 @@ import vueWechatTitle from 'vue-wechat-title'
 //  import 'lib-flexible'
 // import './assets/theme.custom.css'
 Vue.config.productionTip = false
-
 // axios.defaults.baseURL = process.env.API_ROOT
 // axios.defaults.withCredentials = true
 // Vue.prototype.$axios = axios;
 Vue.use(vueWechatTitle)
 Vue.use(Loading)
+Vue.component('ValidationProvider', ValidationProvider)
 // Vue.use(mandMobile)
 // Vue.use(cookie)
 /* eslint-disable no-new */
